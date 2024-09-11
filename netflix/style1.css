@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    font-family: Arial;
+}
+.mainpage{
+    background-image: url("Netfliximg11.jpg");
+    width: 100%;
+    height: 1050px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+.mainpage h1{
+    color:rgb(229,9,20);
+    font-size:4rem;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+.logo{
+    display: flex;
+}
+.lang{
+    margin-top: 50px;
+    margin-left: 1050px;
+    display: flex;
+    color: white;
+    height:40px;
+    width: 120px;
+    font-size: 40px;
+}
+#one{
+    width: 120px;
+    text-align: center;
+    color: white;
+    background-color:black;
+    border-radius:4px;
+    border:1px solid white;
+    font-size: 1.2rem;
+}
+#one:hover{
+    border:2px solid white;
+}
+.two{
+    text-align: center;
+}
+.sign{
+    height: 40px;
+    width: 80px;
+    background-color:rgb(229,9,20) ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left:40px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.sign:hover{
+    border: 1px solid white;
+}
+.startin{
+    position: absolute;
+    top: 45%;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+    height: 350px;
+    width: 1000px;
+    z-index: 1;
+    flex-wrap: wrap;
+}
+.startin h1{
+    display:inline;
+    font-size: 3.5rem;
+    color: white;
+    margin-right: 200px;
+    margin-bottom: 10px;
+
+}
+.startin h3{
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+.startin p{
+    margin-right: 180px;
+    margin-left:205px;
+    margin-bottom: 10px;
+}
+.Email-Signup{
+    display: flex;
+    align-items: center;
+}
+.Email-Signup input{
+   flex: 1;
+   border: 0;
+   outline: 0;
+   margin: 20px;
+   padding:20px 30px;
+   border-radius: 4px;
+   color: aliceblue;
+   font-size: 25px;
+   background-color: black;
+
+}
+.Email-Signup button{
+    background-color:rgb(229,9,20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size:25px;
+    border-radius: 4px;
+    padding:22px 30px;
+}
+.Email-Signup input{
+    border: 1px solid white;
+}
+.Email-Signup button:hover{
+    border: 1px solid white;
+}
+/* page 2 */
+.line1{
+    height:10px;
+    background-color:dimgray;
+}
+.page2 {
+    height:700px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.page2 h1{
+    font-size: 4rem;
+    margin-left: 300px;
+}
+.page2 p{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.img1{
+   height: 350px;
+   width: 600px;
+   background-image: url("Netfliximg2.jpg");
+   background-size:cover ;
+   display: flex;
+   justify-content:center;
+   border: 6px solid gray;
+   border-radius: 4px;
+   margin-left: 300px;
+}
+.ima1:hover{
+    border:1px solid white;
+}
+.line2{
+    height:10px;
+    background-color:dimgray;
+}
+
+/* page 3 */
+.img2{
+    height: 500px;
+    width: 600px;
+    background-image: url("mobile-0819.jpg");
+    background-size:cover ;
+    border-radius: 4px;
+    margin-left: 200px;
+ }
+.page3 {
+    height:700px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.page3 h1{
+    font-size: 4rem;
+    margin-left:500px;
+}
+.page3 p{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.line3{
+    height:10px;
+    background-color:dimgray;
+}
+/* page 4 */
+.page4 {
+    height:700px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.page4 h1{
+    font-size: 4rem;
+    margin-left: 300px;
+}
+.page4 p{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.img3{
+   height: 600px;
+   width: 900px;
+   background-image: url("device-pile-in (1).png");
+   background-size:cover ;
+   display: flex;
+   justify-content:center;
+   border-radius: 4px;
+   margin-left: 300px;
+}
+.img3:hover{
+    border:3px solid white;
+}
+.line4{
+    height:10px;
+    background-color:dimgray;
+}
+
+/* page 5 */
+.img4{
+    height: 500px;
+    width: 700px;
+    background-image: url("img4.png");
+    background-size:cover ;
+    border-radius: 4px;
+    margin-left: 200px;
+ }
+.page5 {
+    height:700px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.page5 h1{
+    font-size: 4rem;
+    margin-left:500px;
+}
+.page5 p{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.line5{
+    height:10px;
+    background-color:dimgray;
+}
+.footer{
+    height:700px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    font-size: 1.30rem;
+    display: block;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: underline;
+}
+ul p{
+    font-size :1.75rem;;
+    margin-bottom :50px;
+}
+.lang1{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: white;
+    height:80px;
+    width: 120px;
+    font-size: 80px;
+    margin-right: 500px;
+}
+#one1{
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color:black;
+    border-radius:4px;
+    border:1px solid white;
+    font-size: 1.2rem;
+}
+#one1:hover{
+    border:2px solid white;
+}
+.two2{
+    text-align: center;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    height:300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.line6{
+    height:10px;
+    background-color:dimgray;
+}
